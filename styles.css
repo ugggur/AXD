@@ -1,7 +1,6 @@
 ul{
     margin-top: 30px;
 }
-
 ul li {
     display: inline;
     list-style:none;
@@ -14,15 +13,12 @@ ul li {
     float: left;
     clear: both;
 }
-
 #main {
     float: left;
 }
-
 #footer {
     float: left;
 }
-
 #testimonials{
     float: left;
 } 
