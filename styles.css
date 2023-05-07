@@ -1,13 +1,33 @@
-ul {
-    display: flex;
-    gap: 5%;
-    list-style: none;
+ul{
+    margin-top: 30px;
 }
 
+ul li {
+    display: inline;
+    list-style:none;
+    margin-right: 10px;
+    clear: right;
+}
+#logo {
+    display: inline;
+    margin-right: 10px;
+    float: left;
+    clear: both;
+}
 
-@media only screen and (max-width: 300px) {
-    
-    ul {
-        margin-left: -35px;
-    }
+#main {
+    float: left;
+}
+
+#footer {
+    float: left;
+}
+
+#testimonials{
+    float: left;
+} 
+.btn-primary {
+    color: #fff;
+    background-color: orange;
+    border-color: #0d6efd
 }
